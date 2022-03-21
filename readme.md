@@ -24,8 +24,8 @@ to reduce the number of preprocessing to the following steps:
   - 2: Positive 
 - Then, based on the paper from Sun et
 al. \[1\] (2019), we converted the aspect category column to meaningful
-questions and concatenated them with the target term. Ex:
-'AMBIENCE\#GENERAL' --\> "What do you think of the ambience ? seating"
+questions and concatenated them with the target term. 
+Ex: 'AMBIENCE\#GENERAL' --\> "What do you think of the ambience ? seating"
 
 On average, this preprocessing step increased the accuracy of our model
 by 4%.
