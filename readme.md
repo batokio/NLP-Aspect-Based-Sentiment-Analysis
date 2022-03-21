@@ -16,7 +16,7 @@ installation of the following packages:
 
 ## 3.  Preprocessing
 
-As the BERT model performs well on a wide variety of syntax, we decided
+As the `BERT` model performs well on a wide variety of syntax, we decided
 to reduce the number of preprocessing to the following steps: 
 - We first converted the list of sentiment to integer as such : 
   - 0: Negative
@@ -33,10 +33,10 @@ by 4%.
 
 ## 4.  Model
 
-Our classifier model is built on the BERT pretrained model from the
-Transformers library. We used the based 'bert-base-uncased' as this
+Our classifier model is built on the `BERT` pretrained model from the
+Transformers library. We used the based 'bert-base-uncased'` as this
 model led on average to an accuracy 2% higher than the
-'bert-base-cased'. This means that the case sensitivity is not relevant
+`'bert-base-cased'`. This means that the case sensitivity is not relevant
 for this task.
 
 This model uses 12 layers of transformers block with a hidden size of
@@ -45,11 +45,11 @@ This model uses 12 layers of transformers block with a hidden size of
 We replaced the last layer by a fully connected layer with 3 for the
 size the output which is equal to the number of classes.
 
-We set the initial learning rate at 2e-5 and used the Adam optimizer
-with a linear learning rate scheduler. The training batch size is 32 and
-we trained the model over 10 epochs.
+We set the initial learning rate at `2e-5` and used the Adam optimizer
+with a linear learning rate scheduler. The training batch size is `32` and
+we trained the model over `10` epochs.
 
-In addition, we also used the BERTtokenizer encoding the sentence and
+In addition, we also used the `BERTtokenizer` encoding the sentence and
 the processed aspect. It outputs the attention masks and the input ids
 which are then used to train the model as well as the sentence.
 
@@ -57,9 +57,11 @@ which are then used to train the model as well as the sentence.
 
 The accuracy of the model is 86.70% (with a standard deviation of 0.37
 on 5 tests). 
-Full results: \[86.17, 86.44, 86.7, 87.23, 86.97\]
+Full results: 
+```python 
+\[86.17, 86.44, 86.7, 87.23, 86.97\]
+```
 
 ## 6.  Reference
 
-\[1\] Chi Sun, Luyao Huang, Xipeng Qiu. 2019. Utilizing BERT for Aspect-Based Sentiment Analysis via
-Constructing Auxiliary Sentence. NAACL
+-	[1] Chi Sun, Luyao Huang, Xipeng Qiu. 2019. *Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence*. NAACL 2019
