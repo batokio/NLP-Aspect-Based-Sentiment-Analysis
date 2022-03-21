@@ -1,4 +1,4 @@
-NLP Exercise 2: Aspect-Based Sentiment Analysis
+Aspect-Based Sentiment Analysis
 
 1. Authors
 
