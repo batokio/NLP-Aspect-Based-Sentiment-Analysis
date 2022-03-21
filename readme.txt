@@ -44,4 +44,4 @@ Full results: [86.17, 86.44, 86.7, 87.23, 86.97]
 
 6. Reference
 
-[1] Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence. NAACL
+[1] Chi Sun, Luyao Huang, Xipeng Qiu. 2019. Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence. NAACL
