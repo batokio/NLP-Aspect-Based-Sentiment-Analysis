@@ -1,18 +1,18 @@
-Aspect-Based Sentiment Analysis
+# Aspect-Based Sentiment Analysis
 
-1.  Authors
+## 1.  Authors
 
 -   Bryan ATOK A KIKI bryan.atok-a-kiki\@student-cs.fr
 -   Ofir BERGER ofir.berger\@student-cs.fr
 -   Sauvik CHATTERJEE sauvik.chatterjee\@student-cs.fr
 -   Abhinav SINGH abhinav.singh\@student-cs.fr
 
-2.  Settings
+## 2.  Settings
 
 In addition to the common Python libraries, our model requires the
 installation of the following packages: \* Transformers \* PyTorch
 
-3.  Preprocessing
+## 3.  Preprocessing
 
 As the BERT model performs well on a wide variety of syntax, we decided
 to reduce the number of preprocessing to the following steps: \* We
@@ -25,7 +25,7 @@ questions and concatenated them with the target term. Ex:
 On average, this preprocessing step increased the accuracy of our model
 by 4%.
 
-4.  Model
+## 4.  Model
 
 Our classifier model is built on the BERT pretrained model from the
 Transformers library. We used the based 'bert-base-uncased' as this
@@ -47,12 +47,12 @@ In addition, we also used the BERTtokenizer encoding the sentence and
 the processed aspect. It outputs the attention masks and the input ids
 which are then used to train the model as well as the sentence.
 
-5.  Performance
+## 5.  Performance
 
 The accuracy of the model is 86.70% (with a standard deviation of 0.37
 on 5 tests). Full results: \[86.17, 86.44, 86.7, 87.23, 86.97\]
 
-6.  Reference
+## 6.  Reference
 
 \[1\] Chi Sun, Luyao Huang, Xipeng Qiu. 2019. Utilizing BERT for Aspect-Based Sentiment Analysis via
 Constructing Auxiliary Sentence. NAACL
