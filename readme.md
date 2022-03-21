@@ -34,9 +34,8 @@ by 4%.
 ## 4.  Model
 
 Our classifier model is built on the `BERT` pretrained model from the
-Transformers library. We used the based 'bert-base-uncased'` as this
-model led on average to an accuracy 2% higher than the
-`'bert-base-cased'`. This means that the case sensitivity is not relevant
+Transformers library. We used the based `'bert-base-uncased'` as this
+model led on average to an accuracy 2% higher than the 'bert-base-cased' version. This means that the case sensitivity is not relevant
 for this task.
 
 This model uses 12 layers of transformers block with a hidden size of
