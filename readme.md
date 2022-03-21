@@ -10,15 +10,18 @@
 ## 2.  Settings
 
 In addition to the common Python libraries, our model requires the
-installation of the following packages: \* Transformers \* PyTorch
+installation of the following packages: 
+- `Transformers`
+- `PyTorch`
 
 ## 3.  Preprocessing
 
 As the BERT model performs well on a wide variety of syntax, we decided
 to reduce the number of preprocessing to the following steps: 
 - We first converted the list of sentiment to integer as such : 
-* o 0: Negative
-o 1: Neutral o 2: Positive \* 
+  - 0: Negative
+  - 1: Neutral 
+  - 2: Positive 
 - Then, based on the paper from Sun et
 al. \[1\] (2019), we converted the aspect category column to meaningful
 questions and concatenated them with the target term. Ex:
@@ -52,7 +55,8 @@ which are then used to train the model as well as the sentence.
 ## 5.  Performance
 
 The accuracy of the model is 86.70% (with a standard deviation of 0.37
-on 5 tests). Full results: \[86.17, 86.44, 86.7, 87.23, 86.97\]
+on 5 tests). 
+Full results: \[86.17, 86.44, 86.7, 87.23, 86.97\]
 
 ## 6.  Reference
 
