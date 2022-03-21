@@ -16,7 +16,8 @@ installation of the following packages: \* Transformers \* PyTorch
 
 As the BERT model performs well on a wide variety of syntax, we decided
 to reduce the number of preprocessing to the following steps: 
-- We first converted the list of sentiment to integer as such : o 0: Negative
+- We first converted the list of sentiment to integer as such : 
+* o 0: Negative
 o 1: Neutral o 2: Positive \* 
 - Then, based on the paper from Sun et
 al. \[1\] (2019), we converted the aspect category column to meaningful
