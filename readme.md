@@ -58,7 +58,7 @@ The accuracy of the model is 86.70% (with a standard deviation of 0.37
 on 5 tests). 
 Full results: 
 ```python 
-\[86.17, 86.44, 86.7, 87.23, 86.97\]
+[86.17, 86.44, 86.7, 87.23, 86.97]
 ```
 
 ## 6.  Reference
